@@ -249,3 +249,79 @@ h1 {
     text-decoration: none;
     color: white;
 }
+iframe {
+    width: 98%;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-left: 10px;
+}
+.section1 {
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    background: #f2f2f2;
+    padding: 10px;
+}
+.form {
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    margin-right: 10px;
+}
+.col25 {
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+.col75 {
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+input[type=submit] {
+    background: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    cursor: pointer;
+}
+.address {
+    width: 49%;
+    float: right;
+    height: 380px;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+}
+.span1 {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 16px;
+}
