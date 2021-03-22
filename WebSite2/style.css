@@ -107,3 +107,61 @@ nav ul li a:hover {
 i {
     margin-right: 10px;
 }
+main {
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+.icerik {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 15);
+    margin-bottom: 15px;
+}
+.rsm {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: opacity 0.8s;
+}
+.rsm:hover {
+    opacity: 0.6;  
+    cursor: pointer;  
+}
+h5 {
+    margin: 10px;
+    color: dimgray;
+}
+.icerikText {
+    margin: 10px;
+    color: dimgray;
+}
+.btnDevam {
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    height: 45px;
+    padding: 10px 18px;
+    background: blue;
+    color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.btnDevam:hover {
+    opacity: 0.7;
+}
+
+footer {
+    width: 100%;
+    height: 75px;
+    background: black;
+    color: white;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 15);
+}
